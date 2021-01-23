@@ -1,0 +1,18 @@
+cmdline parameter
+  |
+  +-rot13  "-rot13"
+  |  |
+  |  +--encode "-e"
+  |  +--decode "-d"
+  |      +--key "-key"
+  |      +--word "-w"
+  |
+  +-viju2d "-viju2d"
+     |
+     +--encode  "-e"
+     +--decode  "-d"
+         |
+         +--key "-key"
+         +--find_key  "-findkey"
+         +--try_decode "-tryd"
+
