@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
 #include <cstring>
+#ifndef _FOR_LOOP
 #define FOR(n) for(uint32_t i=0;i<n;i++)
-
+#endif
 #ifndef _is_function
 #define _is_function
 
@@ -13,8 +14,6 @@ bool isLower   (char ch) { return 'a' <= ch && ch <= 'z'; }
 bool isAlpha   (char ch) { return isUpper(ch) || isLower(ch); }
 bool isAlphaNum(char ch) { return isAlpha(ch) || isDigit(ch); }
 bool isLetter  (char ch) { return isAlpha(ch) || ch == '_';   }
-
-#endif
 
 bool match_char(const char* target, const char* check){
   uint32_t tlen = (uint32_t)std::strlen(target);
@@ -35,4 +34,4 @@ bool match_char(const char* target, const char* check){
 
   return false;
 }
-
+#endif

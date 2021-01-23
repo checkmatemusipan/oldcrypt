@@ -4,7 +4,7 @@
 //user lib
 #include "parse.cpp"
 
-#define FOR(n) for(uint32_t i=0;i<n;i++)
+//#define FOR(n) for(uint32_t i=0;i<n;i++)
 #ifndef _rot13_
 #define _rot13_
 class rot13 {
