@@ -8,11 +8,12 @@ cmdline parameter
   |      +--word "-w"
   |
   +-viju2d "-viju2d"
-     |
-     +--encode  "-e"
-     +--decode  "-d"
-         |
-         +--key "-key"
-         +--find_key  "-findkey"
-         +--try_decode "-tryd"
-
+  |  |
+  |  +--encode  "-e"
+  |  +--decode  "-d"
+  |      |
+  |      +--key "-key"
+  |      +--find_key  "-findkey"
+  |      +--try_decode "-tryd"
+  |
+  +-
